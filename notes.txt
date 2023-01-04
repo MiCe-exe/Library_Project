@@ -1,0 +1,15 @@
+*** Library.java ********************************************
+private HashMap<String, Shelf> shelves = new HashMap<>();
+private HashMap<Book, Integer> books = new HashMap<>();
+**************************************************************
+*** Shelf.java ***********************************************
+private HashMap<Book, Integer> books;
+**************************************************************
+
+addBookToShelf(bookMap.getKey().getSubject(), )
+/addBookToShelf(book, shelf)
+
+            //addBookToShelf(book, shelf)                    //FIX changes
+for(Map.Entry<Book, Integer> bookMap : books.entrySet() ){
+    //addBookToShelf(bookMap.getKey().getSubject(), )
+}
